@@ -13,8 +13,8 @@ public class Test {
         tx.begin();
 
         ISOTransaction isotrans = new ISOTransaction();
-        isotrans.setAccName("john paul");
-        isotrans.setAccAmt("12,000");
+        isotrans.setAccName("MaulidAbdullahi");
+        isotrans.setAccAmt("15,000");
         session.save(isotrans);
 
         tx.commit();

@@ -20,9 +20,9 @@ public class HibernateHelper {
 
         Properties properties = new Properties();
         properties.setProperty(Environment.DRIVER, "com.mysql.cj.jdbc.Driver");
-        properties.setProperty(Environment.URL, "jdbc:mysql://localhost:3306/elephant?useSSL=false");
+        properties.setProperty(Environment.URL, "jdbc:mysql://localhost:3306/buffalo?useSSL=false");
         properties.setProperty(Environment.USER, "root");
-        properties.setProperty(Environment.PASS, "desiderata");
+        properties.setProperty(Environment.PASS, "Mclass#64");
         properties.setProperty(Environment.DIALECT, "org.hibernate.dialect.MySQL5Dialect");
         properties.setProperty(Environment.SHOW_SQL, "true");
         properties.setProperty(Environment.HBM2DDL_AUTO, "update");

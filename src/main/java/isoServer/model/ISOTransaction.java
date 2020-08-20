@@ -41,3 +41,10 @@ public class ISOTransaction {
     }
 
 }
+//    create table transaction(
+//            id INT NOT NULL AUTO_INCREMENT,
+//            accName VARCHAR(100) NOT NULL,
+//             accAmt VARCHAR(40) NOT NULL,
+//
+//     PRIMARY KEY (id )
+//);
